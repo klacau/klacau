@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
@@ -6,10 +7,13 @@ int main()
     int a, b;
     cout << "Enter A and B: ";
     cin >> a >> b;
-    cout << "First number doubled: " << a * 2 << '\n';
-    cout << "Difference between A and B: " << a - b << '\n';
-}
+    cout << "A + B = " << a + b << '\n'
+         << "A * 2 = " << a / 2 << '\n'
+         << "A - B = " << a - b << '\n'
+         << "A * B = " << a * b << '\n';
 
+    return 0;
+}
 
 
 
